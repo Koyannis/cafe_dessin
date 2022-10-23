@@ -1,0 +1,26 @@
+.frame_border {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: transparent;
+  border: solid 5px #083731;
+  border-radius: 4px;
+}
+
+
+.frame {
+  padding: 20px;
+  width: 100%;
+  z-index: 3;
+  background-color: white;
+}
+
+@media (min-width: 800px) {
+  .frame {
+    width: 100%;
+    height: 100%;
+  }
+
+  .frame_border {
+    width: 50%;
+  }
+}

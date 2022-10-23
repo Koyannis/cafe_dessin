@@ -1,0 +1,33 @@
+@font-face {
+  font-family:'manosque';
+  src:font-url('manosque.eot');
+  src:font-url('manosque.eot?#iefix') format('embedded-opentype'),
+      font-url('manosque.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #FDC414;
+  overflow: hidden;
+
+}
+
+a {
+  text-decoration: none;
+  color: #083731;
+  font-family: 'manosque';
+}
+
+.container {
+  background-color: white;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  z-index: -1;
+}
