@@ -1,15 +1,16 @@
 .navbar {
-  margin-top: 10px;
   padding: 20px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   z-index: 1;
   font-size: 40px;
+  display: block;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
   .navbar {
     width: 50%;
+    display: flex;
   }
 }

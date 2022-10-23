@@ -12,18 +12,12 @@
   </head>
 
   <body>
-    <% unless current_page?(root_path) %>
-      <%= image_tag "logo.png", class: "logo-nav" %>
-    <% end %>
+    <%= image_tag "logo.png", class: "logo-nav" %>
     <%= render "shared/navbar" %>
-    <% unless current_page?(root_path) %>
-      <div class="container frame_border">
-        <div class=" frame">
-         <%= yield %>
-        </div>
+    <div class="container frame_border">
+      <div class=" frame">
+       <%= yield %>
       </div>
-    <% else %>
-      <%= image_tag "logo.png", class: "logo" %>
-    <% end %>
+    </div>
   </body>
 </html>
